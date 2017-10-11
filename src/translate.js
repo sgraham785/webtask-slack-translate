@@ -3,7 +3,7 @@
 // Install:
 //    $ sudo npm install -g wt-cli
 //    $ wt init <youremail>
-//    $ wt create translate.js --name slack-translate \
+//    $ wt create dist/translate.js --name slack-translate \
 //                        --secret-file .env \
 //                        --dependency axios@0.16.2
 // Usage:

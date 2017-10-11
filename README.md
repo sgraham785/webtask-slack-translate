@@ -14,7 +14,7 @@ First you will need to have accounts for [Webtask.io](https://webtask.io/), [Goo
 
 ## Create your Webtask for first time
 ```
-wt create translate.js \
+wt create dist/translate.js \
 --name slack-translate \
 --secret-file .env \
 --dependency axios@0.16.2
